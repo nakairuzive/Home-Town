@@ -1,0 +1,45 @@
+
+body{
+    text-align: center;
+}
+.section{
+    height: 300px;
+}
+
+#hero h1{
+    text-align: center;
+}
+#hero p{
+    text-align: center;
+}
+
+#activities-block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+#tour-guide{
+    align-items: center;
+    display: flex;
+    background-color: grey;
+    justify-content: space-around;
+    margin: auto;
+    padding: 20px;
+    width: 400px;
+    border-bottom: 3px solid ;
+    height: 200px;
+}
+
+#tour-guide img{
+    width: 150px;
+    border-radius: 10px;
+}
+
+#guide-profile{
+    width: 200px;
+    text-align: left;
+}
+
+
