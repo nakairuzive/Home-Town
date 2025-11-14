@@ -1,26 +1,64 @@
 
 body{
     text-align: center;
-}
-.section{
-    height: 300px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#hero h1{
-    text-align: center;
+/* HERO SECTION */
+#section-hero{
+    background-image: url("./images/jhb-cover-image2.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 40px 0 40px 0;
+    height: 60vh;
 }
-#hero p{
-    text-align: center;
+#section-hero h1{
+    font-size: 40px;
+}
+#city{
+    background-color: brown;
+}
+
+/* ACTIVITIES SECTION */
+
+#section-activty{
+    height: 70vh;
 }
 
 #activities-block{
-    display: flex;
+    display: flexbox;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    padding: 16px 8px;
+    height: 70vh;
+}
+#test{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.activity-descprition{
+     width: 200px;
+     font-size: small;
+}
+.activity-descprition p{
+}
+.activity-descprition img{
+    width: 100px;
+    border-radius: 100%;
 }
 
-#tour-guide{
+
+/* TOUR GUIDE SECTION */
+
+#section-guide{
+    height: 70vh;
+    padding: 16px 8px;  
+}
+
+#guide-card{
     align-items: center;
     display: flex;
     background-color: grey;
@@ -30,9 +68,10 @@ body{
     width: 400px;
     border-bottom: 3px solid ;
     height: 200px;
+    border-radius: 10px;
 }
 
-#tour-guide img{
+#guide-card img{
     width: 150px;
     border-radius: 10px;
 }
