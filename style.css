@@ -13,6 +13,7 @@ body{
     margin: 0;
     padding: 40px 80px;
     height: 60vh;
+    color: #32322e;
 }
 
 #section-hero h1{
@@ -30,7 +31,6 @@ body{
     border-radius: 5px;
     height: auto;
     line-height: 1.5;
-
 }
 
 
